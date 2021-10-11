@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoq/defender-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Konstantin Beloglazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoq/defender-game/issues"
+  },
+  "homepage": "https://github.com/ajoq/defender-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "dependencies": {
+    "core-js": "^3.18.2"
+  }
+}
